@@ -21,13 +21,16 @@
 					1. 자기소개
 				</div>
 				<div class="navBodyList">
-					2. 스도쿠어플
+					2. 스도쿠
 				</div>
 				<div class="navBodyList">
-					3. FINAL프로젝트
+					3. 엔시큐어
 				</div>
 				<div class="navBodyList">
-					4. SEMI프로젝트
+					4. FINAL프로젝트
+				</div>
+				<div class="navBodyList">
+					5. SEMI프로젝트
 				</div>
 			</div>
 			<div class="navBottom">
@@ -66,7 +69,7 @@
 								<div>
 									안녕하세요.<br>
 									93년생 신입개발자 한지수입니다.<br>
-									서울시 도봉구 도봉동에 살고 있고 
+									서울시 도봉구 도봉동에 살고 있고 테니스를 좋아합니다.
 								</div>
 							</div>
 							<div id="profileInfo">
@@ -91,7 +94,7 @@
 								<div>Skill</div>
 								<div>
 									<ul>
-										<li>JAVA, JSP</li>
+										<li>JAVA, JSP, Android</li>
 										<li>HTML5, CSS, JAVASCRIPT, JQUERY</li>
 										<li>ORACLE, MSSQL, SQLSERVER, PARSE SERVER</li>
 										<li>SPRING, JDBC, MYBATIS, AJAX</li>
@@ -115,8 +118,6 @@
 						</div>
 					</div>
 				</div>	
-				
-				
 				<div class="contentsBox5">
 					<div class="subject">5.스도쿠</div>
 					<div class="explanation">
@@ -124,9 +125,10 @@
 							스도쿠 어플
 						</div>
 						<div id="sudocuLeftBox">
-							<div class="subject">개발 목표</div>
+							<div class="subject">개발 동기>??</div>
 							<div class="value">
-								- 
+								평소에 스도쿠를 좋아하고 KH정보교육<br>
+								학원에서 프로젝트하고 남은 시간에 혼자 웹 스도쿠를 만든 경험이 있어서 어플로도 만들고 싶다는 생각에 만들게 되었습니다.
 							</div>
 							<div class="subject">개발환경</div>
 							<div class="value">
@@ -137,22 +139,16 @@
 									window 10
 								</div>
 								<div class="subject">
-									C#
-								</div>
-								<div class="value">
-									G
-								</div>
-								<div class="subject">
 									DATABASE
 								</div>
 								<div class="value">
-									G
+									unity PlayerPrefs
 								</div>
 								<div class="subject">
 									Tool
 								</div>
 								<div class="value">
-									UNITY
+									unity
 								</div>
 								<div class="subject">
 									사용언어
@@ -168,7 +164,7 @@
 								개발기간
 							</div>
 							<div class="value">
-								2018년 11월 15일 ~ 2018년 12월 30일
+								2018년 11월 25일 ~ 2018년 12월 30일
 							</div>
 							<div class="subject">구현기능</div>
 							<div class="value">
@@ -193,26 +189,127 @@
 					</div>
 				</div>
 				<div id="contentsBox5-1">
-					<div class="subject">5. </div>
+					<div class="subject">5.스도쿠 UI</div>
 					<div class="explanation">
-						<img src="images/final/">
+						<img src="images/sudoku/sudokuMain.jpg">
+						<img src="images/sudoku/sudokuGame2.jpg">
+						<img src="images/sudoku/sudokuSave.jpg">
+						<img src="images/sudoku/sudokuSave1.jpg">
 						<div>
-							 
+							메인화면과 게임화면 입니다.<br>
+							게임 화면에서 연필버튼을 누르면 답이아닌 필기를 할 수 있게 구현했고,지우개 버튼을 누르면 선택된 칸의 답,필기 내용이 지워지도록 하였습니다.<br> 
+							지우개 옆에있는 전구이미지버튼을 누르면 선택한 칸의 답을 힌트로 제공하고, 두번째 눌렀을 경우 동영상광고를 본 후에 힌트가 제공됩니다.<br>
+							힌트 옆 버튼은 이전버튼으로 누를때마다 이전으로 돌아갑니다. 
 						</div>
 					</div>
 				</div>
-				
-				
+				<div id="contentsBox5-2">
+					<div class="subject">5.스도쿠 UI</div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuEasy.jpg">
+						<img src="images/sudoku/sudokuNormal.jpg">
+						<img src="images/sudoku/sudokuHard.jpg">
+						<img src="images/sudoku/sudokuHell.jpg">
+						<div>
+							 난이도 별로 99개의 스테이지와 1개의 무한스테이지가 존재합니다.<br>
+							 스테이지 클리어시 스테이지 옆에 기록이되고, 신기록달성마다 변경됩니다.<br>
+							 무한 스테이지는 해당 난이도에 맞게 문제를 자동으로 만들어 사용자에게 제공합니다.<br>
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-3">
+					<div class="subject">5.스도쿠 - 스테이지 코드1</div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuStageMethod2.PNG">
+						<div>
+							스테이지를 불러오는 메서드입니다.<br>
+							inputPoint는 스도쿠 문제의 빈칸이 되는 위치를 담고 있는 배열입니다.<br>
+							Stage메서드의 매개변수로 1~9까지의 숫자와 inputPoint을 넘겨주고 스도쿠 문제를 반환받습니다.
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-4">
+					<div class="subject">5.스도쿠 - 스테이지 코드2</div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuStageMethod1.PNG">
+						<div>
+							 스도쿠 81칸의 문제를 만들어주는 메서드입니다.<br>
+							 매개변수로 1~9의 숫자와 비어있는칸을 담고있는 배열을 받습니다.<br>
+							hitResultSave메서드는 힌트제공을 위해 문제의 원본 데이터를 저장합니다.<br>
+							for문을 이용하여 inputPoint배열에 들어있는 숫자와 같은 위치의 값을 0으로 바꿉니다.<br>
+							0이 게임에서 공백으로 답을 입력해야하는 칸이됩니다.
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-5">
+					<div class="subject">5.스도쿠 - 스테이지 코드3</div>
+					<div class="explanation">
+						<img src="images/sudoku/hintMethod.PNG">
+						<div>
+							유니티에서 제공하는 PlayerPrefs클래스를 이용하여 hint0부터 ~ 80까지의 이름으로 정답을 저장하고 있습니다.<br>
+							PlayerPrefs클래스는 데이터를 자체적으로 저장할 수 있는 데이터베이스같은 클래스입니다.
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-6">
+					<div class="subject">5.스도쿠 - 답체크 </div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuResultCheck.PNG">
+						<div>
+							답체크는 행단위,열단위,3x3단위로 빈칸이였던 값들을 체크를 하기때문에 이 메서드는 최대 27번 실행됩니다.<br>
+							검사를 해서 FailCount가 2가되면 검사하는 행,열,3x3에 중복되는 값이 있으므로 실패결과를 저장합니다.<br>
+							스테이지 생성할때 저장해둔 PlayerPrefs를 이용하여 답체크를 할 수도 있지만 문제의 답이<br> 
+							2개가 될경우가 있기 때문에 답체크 하는 메서드를 만들었습니다.<br>
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-7">
+					<div class="subject">5.스도쿠 - 행 답체크 </div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuResultA.PNG">
+						<div>
+							resultPoint 배열에는 체크해야할 빈칸의 위치가 저장되어있습니다.<br>
+							첫번째행의 위치값은 1~9이고,두번째는 10~18 세번째는 19~27...입니다.<br>
+							검사할 위치값에서 -1을 하고 9를 나누면 첫번째행은 0,두번째행은 1,세번째행은 2...가 나오고 pointRangeA 변수에 저장해줍니다.
+							switch 조건문안에서 메서드의 매개변수에 행의 위치번호들과 검사할 위치번호를 넘겨줍니다.
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-8">
+					<div class="subject">5.스도쿠 - 열 답체크 </div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuResultB.PNG">
+						<div>
+							첫번째열의 위치값은
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-9">
+					<div class="subject">5.스도쿠 - 3x3 답체크 </div>
+					<div class="explanation">
+						<img src="images/sudoku/sudokuResultC.PNG">
+						<div>
+							
+						</div>
+					</div>
+				</div>
+				<div id="contentsBox5-x">
+					<div class="subject">5.스도쿠 - 문제점</div>
+					<div>
+						 
+					</div>
+				</div>
 				<div class="contentsBox4">
 					<div class="subject">4.엔시큐어</div>
 					<div class="explanation">
 						<div id="ensecureSubjectBox">
-							삼성화재 감사대응 추가개발
+							삼성화재 감사대응 기능추가
 						</div>
 						<div id="ensecureLeftBox">
 							<div class="subject">개발 목표</div>
 							<div class="value">
-								- 관리자가 하는 모든 행위 로그
+								관리자가 관리자 페이지에서 하는 모든<br>
+								 행위를 이력으로 남기기 위한 기능 추가
 							</div>
 							<div class="subject">개발환경</div>
 							<div class="value">
@@ -250,7 +347,7 @@
 									WAS
 								</div>
 								<div class="value">
-									JBOSS
+									Jboss
 								</div>
 							</div>
 							
@@ -264,21 +361,94 @@
 							</div>
 							<div class="subject">구현기능</div>
 							<div class="value">
-								- 
+								- 특정 페이지 관리자 행위 로그 이력 
 							</div>
 							<div class="value">
-								- 
+								- 비밀번호 변경 UI추가
 							</div>
 							<div class="value">
-								- 
-							</div>
-							<div class="value">
+								- 로그인 이력 UI추가
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="contentsBox4">
+					<div class="subject">4.엔시큐어</div>
+					<div class="explanation">
+						<div id="ensecureSubjectBox">
+							농협정보통신 신규개발
+						</div>
+						<div id="ensecureLeftBox">
+							<div class="subject">개발 목표</div>
+							<div class="value">
+								- OS,DB계정 관리와 접근통제를 위한 통합개발  
+							</div>
+							<div class="subject">개발환경</div>
+							<div class="value">
+								<div class="subject">
+									운영체제 
+								</div>
+								<div class="value">
+									window 10
+								</div>
+								<div class="subject">
+									JAVA
+								</div>
+								<div class="value">
+									JDK 1.8
+								</div>
+								<div class="subject">
+									database
+								</div>
+								<div class="value">
+									MSSQL
+								</div>
+								<div class="subject">
+									Tool
+								</div>
+								<div class="value">
+									Eclipse, MSSM
+								</div>
+								<div class="subject">
+									사용언어
+								</div>
+								<div class="value">
+									JAVA,JSP,HTML,JS
+								</div>
+								<div class="subject">
+									WAS
+								</div>
+								<div class="value">
+									Tomcat 8.5
+								</div>
+							</div>
+						</div>
+						<div id="ensecureRightBox">
+							<div class="subject">
+								개발기간
+							</div>
+							<div class="value">
+								2018년 9월 3일 ~ 2018년 10월 31일
+							</div>
+							<div class="subject">구현기능</div>
+							<div class="value">
+								- 결재라인 3단계 -> 4단계 변경
+							</div>
+							<div class="value">
+								- AD계정 신청/삭제 UI 추가
+							</div>
+							<div class="value">
+								- AD계정 접근권한 신청/삭제 UI추가
+							</div>
+							<div class="value">
+								- 
+							</div>
+						</div>
+					</div>
+				</div>
+				
 				<div id="contentsBox4-1">
-					<div class="subject">4.삼성화재 감사대응  추가개발 </div>
+					<div class="subject">4.엔시큐어 - 농협정보통신 </div>
 					<div class="explanation">
 						<img src="images/final/">
 						<div>
@@ -514,7 +684,7 @@
 				<div id="contentsBox2-1">
 					<div class="subject">2.Semi프로젝트 - 메인 화면</div>
 					<div class="explanation">
-						<img src="images/semiMain.png">
+						<img src="images/semi/semiMain.png">
 						<div>
 							KH정보교육원 학원에서 첫 프로젝트 사내 인트라넷 메인 화면입니다.
 						</div>
@@ -523,7 +693,7 @@
 				<div id="contentsBox2-2">
 					<div class="subject">2.Semi프로젝트 - 전자결재 화면</div>
 					<div class="explanation">
-						<img src="images/semiapproval.png">
+						<img src="images/semi/semiapproval.png">
 						<div>
 							추가하기 버튼을 클릭하면 입력란이 한줄 더 생기고, 입력란 우측 -를 클릭하면 해당 줄은 삭제가 됩니다.<br>
 							날짜 선택은 캘린더 API를 이용하여 하여 편리하게 만들었습니다.
@@ -533,7 +703,7 @@
 				<div id="contentsBox2-3">
 					<div class="subject">2.Semi프로젝트 - 전자결재리스트 화면</div>
 					<div class="explanation">
-						<img src="images/semipaymentList.png">
+						<img src="images/semi/semipaymentList.png">
 						<div>
 							결재라인은 팀장만 승인할 수 있게했고, 팀원은 승인전 요청을 취소할 수 있습니다.<br>
 							리스트는 팀장은 자신의 부서모든 요청이 나타나고, 팀원은 자신의 요청만 나타납니다.
@@ -543,7 +713,7 @@
 				<div id="contentsBox2-4">
 					<div class="subject">2.Semi프로젝트 - 전자결재 사직 코드</div>
 					<div class="explanation">
-						<img src="images/semiApprovalCode1.PNG">
+						<img src="images/semi/semiApprovalCode1.PNG">
 						<div>
 							24시간마다 퇴직한직원이 있는지 확인후 상태를 퇴직으로 변경되게끔 했습니다.<br>
 							서버 첫스타트시 한번 실행이 되고 Thread객체의 sleep메서드와 무한루프를 이용하여 24시간마다 실행되게 만들었습니다. 
@@ -553,7 +723,7 @@
 				<div id="contentsBox2-5">
 					<div class="subject">2.Semi프로젝트 - 사진첩</div>
 					<div class="explanation">
-						<img src="images/semiPhoto.png">
+						<img src="images/semi/semiPhoto.png">
 						<div>
 							사진첩은 프로젝트 종료직전 시간이 남아서 이틀동안 간단하게 구현했습니다.<br>
 							사진등록/삭제는 관리자만 가능하며, 사진을 클릭하면 모달창으로 확대되게 만들었습니다.<br>
@@ -566,18 +736,15 @@
 				<div id="contentsBox2-6">
 					<div class="subject">2.Semi프로젝트 - 사진첩 코드</div>
 					<div class="explanation">
-						<img src="images/semiPhotoCode1.PNG">
+						<img src="images/semi/semiPhotoCode1.PNG">
 						<div>
 							자바스크립트의 trigger함수를 이용하여 파일을 선택한 즉시 파일이 전송되어 저장되게 만들었습니다.<br>
 							사진삭제시 선택된 사진만큼 반복문을 돌려 콤마(,)로 묶어서 삭제할 사진의 id값을 보내고 삭제합니다.
 						</div>
 					</div>
 				</div>
-				
 			</div>				
 		</div>
 	</div>
-
-
 </body>
 </html>

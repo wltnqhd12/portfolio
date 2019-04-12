@@ -1,6 +1,6 @@
 @charset "UTF-8";
 	.contentsBox4{
-		height:600px;
+		height:545px;
 		margin-top:15px;
 	}
 	.contentsBox4>.subject,	#contentsBox4-1>.subject, #contentsBox4-2>.subject,
@@ -12,7 +12,7 @@
 	}
 	.contentsBox4>.explanation{
 		margin:5px 20px;
-		height:515px;
+		height:460px;
 		overflow:hidden;
 	}
 	

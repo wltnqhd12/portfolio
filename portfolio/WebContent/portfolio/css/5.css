@@ -5,7 +5,8 @@
 	}
 	.contentsBox5>.subject,	#contentsBox5-1>.subject, #contentsBox5-2>.subject,
 	#contentsBox5-3>.subject, #contentsBox5-4>.subject, #contentsBox5-5>.subject,
-	#contentsBox5-6>.subject{
+	#contentsBox5-6>.subject,#contentsBox5-7>.subject,#contentsBox5-8>.subject,
+	#contentsBox5-9>.subject{
 		font-size:30px;
 		border-bottom:2px solid;
 		margin:5px 20px;
@@ -41,7 +42,7 @@
 		width:150px;
 	}
 	#sudocuLeftBox>div:nth-child(3){
-		margin-top:60px;
+		margin-top:50px;
 	}
 	#sudocuLeftBox>.value{
 		font-size:17px;
@@ -68,7 +69,7 @@
 		background:azure;	
 	}
 	#sudocuRightBox>div:nth-child(3){
-		margin-top:100px;
+		margin-top:120px;
 	}
 	#sudocuRightBox>.value{
 		margin-left:40px;
@@ -79,24 +80,197 @@
 	
 	
 	#contentsBox5-1{
-		height:750px;
+		height:670px;
 		margin-top:15px;
 	}
 	#contentsBox5-1>.explanation{
 		margin:5px 20px;
-		height:665px;
+		height:585px;
 		overflow:hidden;
 		background:aliceblue;
 	}
 	#contentsBox5-1>.explanation>img{
-		width:90%;
-		margin:2% 0% 2% 5%;
-		height:472px;
+		width:24.45%;
+		height:400px;
 	}
 	#contentsBox5-1>.explanation>div{
+		font-size:18px;
+		height:140px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
+	
+	#contentsBox5-2{
+		height:599px;
+		margin-top:15px;
+	}
+	#contentsBox5-2>.explanation{
+		margin:5px 20px;
+		height:514px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-2>.explanation>img{
+		width:24.45%;
+		height:400px;
+	}
+	#contentsBox5-2>.explanation>div{
+		font-size:18px;
+		height:70px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
+	
+	
+	#contentsBox5-3{
+		height:658px;
+		margin-top:15px;
+	}
+	#contentsBox5-3>.explanation{
+		margin:5px 20px;
+		height:573px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-3>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:400px;
+	}
+	#contentsBox5-3>.explanation>div{
+		font-size:18px;
+		height:95px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
+	
+	#contentsBox5-4{
+		height:670px;
+		margin-top:15px;
+	}
+	#contentsBox5-4>.explanation{
+		margin:5px 20px;
+		height:593px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-4>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:400px;
+	}
+	#contentsBox5-4>.explanation>div{
 		font-size:18px;
 		height:115px;
 		padding:20px 40px;
 		background:gainsboro;
 	}
+
+	#contentsBox5-5{
+		height:485px;
+		margin-top:15px;
+	}
+	#contentsBox5-5>.explanation{
+		margin:5px 20px;
+		height:470x;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-5>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:250px;
+	}
+	#contentsBox5-5>.explanation>div{
+		font-size:18px;
+		height:70px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
 	
+	#contentsBox5-6{
+		height:755px;
+		margin-top:15px;
+	}
+	#contentsBox5-6>.explanation{
+		margin:5px 20px;
+		height:670px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-6>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:472px;
+	}
+	#contentsBox5-6>.explanation>div{
+		font-size:18px;
+		height:120px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
+	
+	#contentsBox5-7{
+		height:755px;
+		margin-top:15px;
+	}
+	#contentsBox5-7>.explanation{
+		margin:5px 20px;
+		height:670px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-7>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:472px;
+	}
+	#contentsBox5-7>.explanation>div{
+		font-size:18px;
+		height:120px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
+	#contentsBox5-8{
+		height:755px;
+		margin-top:15px;
+	}
+	#contentsBox5-8>.explanation{
+		margin:5px 20px;
+		height:670px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-8>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:472px;
+	}
+	#contentsBox5-8>.explanation>div{
+		font-size:18px;
+		height:120px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
+	
+	#contentsBox5-9{
+		height:755px;
+		margin-top:15px;
+	}
+	#contentsBox5-9>.explanation{
+		margin:5px 20px;
+		height:670px;
+		overflow:hidden;
+		background:aliceblue;
+	}
+	#contentsBox5-9>.explanation>img{
+		width:90%;
+		margin:2% 0% 2% 5%;
+		height:472px;
+	}
+	#contentsBox5-9>.explanation>div{
+		font-size:18px;
+		height:120px;
+		padding:20px 40px;
+		background:gainsboro;
+	}
