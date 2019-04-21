@@ -42,7 +42,7 @@
 		width:150px;
 	}
 	#sudocuLeftBox>div:nth-child(3){
-		margin-top:50px;
+		margin-top:40px;
 	}
 	#sudocuLeftBox>.value{
 		font-size:17px;
@@ -69,7 +69,7 @@
 		background:azure;	
 	}
 	#sudocuRightBox>div:nth-child(3){
-		margin-top:120px;
+		margin-top:100px;
 	}
 	#sudocuRightBox>.value{
 		margin-left:40px;
@@ -194,7 +194,7 @@
 	}
 	#contentsBox5-6>.explanation{
 		margin:5px 20px;
-		height:670px;
+		height:690px;
 		overflow:hidden;
 		background:aliceblue;
 	}
@@ -205,7 +205,7 @@
 	}
 	#contentsBox5-6>.explanation>div{
 		font-size:18px;
-		height:120px;
+		height:140px;
 		padding:20px 40px;
 		background:gainsboro;
 	}
@@ -254,12 +254,12 @@
 	}
 	
 	#contentsBox5-9{
-		height:755px;
+		height:775px;
 		margin-top:15px;
 	}
 	#contentsBox5-9>.explanation{
 		margin:5px 20px;
-		height:670px;
+		height:690px;
 		overflow:hidden;
 		background:aliceblue;
 	}
@@ -270,7 +270,7 @@
 	}
 	#contentsBox5-9>.explanation>div{
 		font-size:18px;
-		height:120px;
+		height:140px;
 		padding:20px 40px;
 		background:gainsboro;
 	}
