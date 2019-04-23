@@ -6,7 +6,7 @@
 	}
 	.contentsBox1>.subject{
 		font-size:30px;
-		border-bottom:2px solid;
+		border-bottom:3px solid;
 		margin:5px 20px;
 	}
 	.contentsBox1>.explanation{
@@ -19,7 +19,7 @@
 		float:left;
 		width:100%;
 		height:230px;
-		background:cornflowerblue;
+		background:ghostwhite;
 	}
 	#profileImageBox>div{
 		margin:10.5px auto;
@@ -38,7 +38,7 @@
 	#profileLeftBox{
 		float:left;
 		width:35%;
-		background:burlywood;
+		background:honeydew;
 		height:385px;
 	}
 	
@@ -82,7 +82,7 @@
 		float:left;
 		width:65%;
 		height:500px;
-		background:whitesmoke;	
+		background:bottom;	
 	}
 	#profileSkill{
 		height:150px;		

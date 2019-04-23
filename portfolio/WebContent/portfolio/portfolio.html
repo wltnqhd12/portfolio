@@ -9,6 +9,8 @@
 <link rel="stylesheet" type="text/css" href="css/3.css">
 <link rel="stylesheet" type="text/css" href="css/4.css">
 <link rel="stylesheet" type="text/css" href="css/5.css">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -17,19 +19,19 @@
 				포트폴리오
 			</div>
 			<div class="navBody">
-				<div class="navBodyList">
-					1. 자기소개
+				<div class="navBodyList" onClick="move('.contentsBox1')">
+					1.자기소개
 				</div>
-				<div class="navBodyList">
+				<div class="navBodyList" onClick="move('.contentsBox5')">
 					2. 스도쿠
 				</div>
-				<div class="navBodyList">
+				<div class="navBodyList" onClick="move('.contentsBox4')">
 					3. 엔시큐어
 				</div>
-				<div class="navBodyList">
+				<div class="navBodyList" onClick="move('.contentsBox3')">
 					4. FINAL프로젝트
 				</div>
-				<div class="navBodyList">
+				<div class="navBodyList" onClick="move('.contentsBox2')">
 					5. SEMI프로젝트
 				</div>
 			</div>
@@ -70,8 +72,8 @@
 							<div id="profileIntro">
 								<div>Introduce</div>
 								<div>
-									안녕하세요.<br>
-									93년생 신입개발자 한지수입니다.<br>
+									안녕하세요. 열정가득한	93년생<br>
+									 신입개발자 한지수입니다.<br>
 									서울시 도봉구 도봉동에 살고 있고<br>
 									좋아하는 운동은 테니스입니다.
 								</div>
@@ -123,7 +125,7 @@
 					</div>
 				</div>	
 				<div class="contentsBox5">
-					<div class="subject">5.스도쿠</div>
+					<div class="subject">2.스도쿠</div>
 					<div class="explanation">
 						<div id="sudocuSubjectBox">
 							스도쿠 어플
@@ -193,7 +195,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-1">
-					<div class="subject">5.스도쿠 UI</div>
+					<div class="subject">2.스도쿠 UI</div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuMain.jpg">
 						<img src="images/sudoku/sudokuGame2.jpg">
@@ -208,7 +210,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-2">
-					<div class="subject">5.스도쿠 UI</div>
+					<div class="subject">2.스도쿠 UI</div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuEasy.jpg">
 						<img src="images/sudoku/sudokuNormal.jpg">
@@ -222,7 +224,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-3">
-					<div class="subject">5.스도쿠 - 스테이지 코드1</div>
+					<div class="subject">2.스도쿠 - 스테이지 코드1</div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuStageMethod2.PNG">
 						<div>
@@ -233,7 +235,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-4">
-					<div class="subject">5.스도쿠 - 스테이지 코드2</div>
+					<div class="subject">2.스도쿠 - 스테이지 코드2</div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuStageMethod1.PNG">
 						<div>
@@ -246,7 +248,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-5">
-					<div class="subject">5.스도쿠 - 스테이지 코드3</div>
+					<div class="subject">2.스도쿠 - 스테이지 코드3</div>
 					<div class="explanation">
 						<img src="images/sudoku/hintMethod.PNG">
 						<div>
@@ -268,7 +270,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-7">
-					<div class="subject">5.스도쿠 - 행 답체크 </div>
+					<div class="subject">2.스도쿠 - 행 답체크 </div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuResultA.PNG">
 						<div>
@@ -280,7 +282,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-8">
-					<div class="subject">5.스도쿠 - 열 답체크 </div>
+					<div class="subject">2.스도쿠 - 열 답체크 </div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuResultB.PNG">
 						<div>
@@ -292,7 +294,7 @@
 					</div>
 				</div>
 				<div id="contentsBox5-9">
-					<div class="subject">5.스도쿠 - 3x3 답체크 </div>
+					<div class="subject">2.스도쿠 - 3x3 답체크 </div>
 					<div class="explanation">
 						<img src="images/sudoku/sudokuResultC.PNG">
 						<div>
@@ -305,12 +307,12 @@
 					</div>
 				</div>
 				<div class="contentsBox4">
-					<div class="subject">4.엔시큐어</div>
+					<div class="subject">3.엔시큐어 - 삼성화재</div>
 					<div class="explanation">
-						<div id="ensecureSubjectBox">
+						<div id="ensecureSubjectBox1">
 							삼성화재 감사대응 기능추가
 						</div>
-						<div id="ensecureLeftBox">
+						<div id="ensecureLeftBox1">
 							<div class="subject">개발 목표</div>
 							<div class="value">
 								관리자가 관리자 페이지에서 하는 모든<br>
@@ -357,7 +359,7 @@
 							</div>
 							
 						</div>
-						<div id="ensecureRightBox">
+						<div id="ensecureRightBox1">
 							<div class="subject">
 								개발기간
 							</div>
@@ -378,15 +380,16 @@
 					</div>
 				</div>
 				<div class="contentsBox4">
-					<div class="subject">4.엔시큐어</div>
+					<div class="subject">3.엔시큐어 - 농협정보통신</div>
 					<div class="explanation">
-						<div id="ensecureSubjectBox">
+						<div id="ensecureSubjectBox2">
 							농협정보통신 신규개발
 						</div>
-						<div id="ensecureLeftBox">
+						<div id="ensecureLeftBox2">
 							<div class="subject">개발 목표</div>
 							<div class="value">
-								- OS,DB계정 관리와 접근통제를 위한 통합개발  
+								OS,DB,AD 계정을 통합 관리하기 위한 개발<br>
+								
 							</div>
 							<div class="subject">개발환경</div>
 							<div class="value">
@@ -428,7 +431,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="ensecureRightBox">
+						<div id="ensecureRightBox2">
 							<div class="subject">
 								개발기간
 							</div>
@@ -437,7 +440,7 @@
 							</div>
 							<div class="subject">구현기능</div>
 							<div class="value">
-								- 결재라인 정직원 3단계 / 협력직 4단계로 변경
+								- 결재라인 정직원 3단계/협력직 4단계로 변경
 							</div>
 							<div class="value">
 								- AD계정 신청/삭제 UI 추가
@@ -452,7 +455,7 @@
 					</div>
 				</div>
 				<div class="contentsBox3">
-					<div class="subject">3.Final프로젝트</div>
+					<div class="subject">4.Final프로젝트</div>
 					<div class="explanation">
 						<div id="finalSubjectBox">
 							LIFE PLUS
@@ -534,7 +537,7 @@
 					</div>
 				</div>
 				<div id="contentsBox3-1">
-					<div class="subject">3.Final프로젝트 - 메인페이지 </div>
+					<div class="subject">4.Final프로젝트 - 메인페이지 </div>
 					<div class="explanation">
 						<img src="images/final/mainPage.png">
 						<div>
@@ -545,7 +548,7 @@
 					</div>
 				</div>
 				<div id="contentsBox3-2">
-					<div class="subject">3.Final프로젝트 - 시큐리티 코드 </div>
+					<div class="subject">4.Final프로젝트 - 시큐리티 코드 </div>
 					<div class="explanation">
 						<img src="images/final/security.png">
 						<div>
@@ -556,7 +559,7 @@
 					</div>
 				</div>
 				<div id="contentsBox3-2-1">
-					<div class="subject">3.Final프로젝트 - 시큐리티 코드 </div>
+					<div class="subject">4.Final프로젝트 - 시큐리티 코드 </div>
 					<div class="explanation">
 						<img src="images/final/security2.PNG">
 						<div>
@@ -569,7 +572,7 @@
 					</div>
 				</div>
 				<div id="contentsBox3-3">
-					<div class="subject">3.Final프로젝트 - 다음/구글맵 API 화면 </div>
+					<div class="subject">4.Final프로젝트 - 다음/구글맵 API 화면 </div>
 					<div class="explanation">
 						<img src="images/final/google.PNG">
 						<div>
@@ -579,7 +582,7 @@
 					</div>
 				</div>
 				<div id="contentsBox3-4">
-					<div class="subject">3.Final프로젝트 - 구글맵 API 코드</div>
+					<div class="subject">4.Final프로젝트 - 구글맵 API 코드</div>
 					<div class="explanation">
 						<img src="images/final/googleMapCode.PNG">
 						<div>
@@ -591,7 +594,7 @@
 					</div>
 				</div>
 				<div id="contentsBox3-5">
-					<div class="subject">3.Final프로젝트 - 좋아요</div>
+					<div class="subject">4.Final프로젝트 - 좋아요</div>
 					<div class="explanation">
 						<img src="images/final/like.PNG">
 						<div>
@@ -602,7 +605,7 @@
 				</div>
 				
 				<div class="contentsBox2">
-					<div class="subject">2.Semi프로젝트</div>
+					<div class="subject">5.Semi프로젝트</div>
 					<div class="explanation">
 						<div id="semiSubjectBox">
 							사내인트라넷
@@ -676,7 +679,7 @@
 					</div>
 				</div>
 				<div id="contentsBox2-1">
-					<div class="subject">2.Semi프로젝트 - 메인 화면</div>
+					<div class="subject">5.Semi프로젝트 - 메인 화면</div>
 					<div class="explanation">
 						<img src="images/semi/semiMain.png">
 						<div>
@@ -685,7 +688,7 @@
 					</div>
 				</div>
 				<div id="contentsBox2-2">
-					<div class="subject">2.Semi프로젝트 - 전자결재 화면</div>
+					<div class="subject">5.Semi프로젝트 - 전자결재 화면</div>
 					<div class="explanation">
 						<img src="images/semi/semiapproval.png">
 						<div>
@@ -695,7 +698,7 @@
 					</div>
 				</div>
 				<div id="contentsBox2-3">
-					<div class="subject">2.Semi프로젝트 - 전자결재리스트 화면</div>
+					<div class="subject">5.Semi프로젝트 - 전자결재리스트 화면</div>
 					<div class="explanation">
 						<img src="images/semi/semipaymentList.png">
 						<div>
@@ -705,7 +708,7 @@
 					</div>
 				</div>
 				<div id="contentsBox2-4">
-					<div class="subject">2.Semi프로젝트 - 전자결재 사직 코드</div>
+					<div class="subject">5.Semi프로젝트 - 전자결재 사직 코드</div>
 					<div class="explanation">
 						<img src="images/semi/semiApprovalCode1.PNG">
 						<div>
@@ -715,7 +718,7 @@
 					</div>
 				</div>
 				<div id="contentsBox2-5">
-					<div class="subject">2.Semi프로젝트 - 사진첩</div>
+					<div class="subject">5.Semi프로젝트 - 사진첩</div>
 					<div class="explanation">
 						<img src="images/semi/semiPhoto.png">
 						<div>
@@ -728,7 +731,7 @@
 					</div>
 				</div>
 				<div id="contentsBox2-6">
-					<div class="subject">2.Semi프로젝트 - 사진첩 코드</div>
+					<div class="subject">5.Semi프로젝트 - 사진첩 코드</div>
 					<div class="explanation">
 						<img src="images/semi/semiPhotoCode1.PNG">
 						<div>

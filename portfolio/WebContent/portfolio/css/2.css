@@ -7,7 +7,7 @@
 	#contentsBox2-3>.subject, #contentsBox2-4>.subject, #contentsBox2-5>.subject,
 	#contentsBox2-6>.subject{
 		font-size:30px;
-		border-bottom:2px solid;
+		border-bottom:3px solid;
 		margin:5px 20px;
 	}
 	.contentsBox2>.explanation{
@@ -19,7 +19,8 @@
 	#semiSubjectBox{
 		float:left;
 		width:100%;
-		background:black;
+		background:#3A3A3A;
+		font-weight:600;
 		color:white;
 		height:50px;
 		text-align:center;
@@ -29,7 +30,7 @@
 	#semiLeftBox{
 		float:left;
 		width:50%;
-		background:antiquewhite;
+		background:#FFD0C2;
 		height:465px;
 	}
 	#semiLeftBox>.subject,
@@ -65,7 +66,7 @@
 		float:left;
 		width:50%;
 		height:465px;
-		background:azure;	
+		background:#FFF0CF;	
 	}
 	#semiRightBox>div:nth-child(3){
 		margin-top:100px;

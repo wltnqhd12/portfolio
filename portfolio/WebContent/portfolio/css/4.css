@@ -7,7 +7,7 @@
 	#contentsBox4-3>.subject, #contentsBox4-4>.subject, #contentsBox4-5>.subject,
 	#contentsBox4-6>.subject{
 		font-size:30px;
-		border-bottom:2px solid;
+		border-bottom:3px solid;
 		margin:5px 20px;
 	}
 	.contentsBox4>.explanation{
@@ -16,61 +16,71 @@
 		overflow:hidden;
 	}
 	
-	#ensecureSubjectBox{
+	#ensecureSubjectBox1,#ensecureSubjectBox2{
 		float:left;
 		width:100%;
-		background:black;
+		background:#3A3A3A;
+		font-weight:600;
 		color:white;
 		height:50px;
 		text-align:center;
 		font-size:30px;
 		line-height:1.5;
 	}
-	#ensecureLeftBox{
+	#ensecureLeftBox1,#ensecureLeftBox2{
 		float:left;
 		width:50%;
-		background:antiquewhite;
+		background:#FFD0C2;
 		height:465px;
 	}
-	#ensecureLeftBox>.subject,
-	#ensecureRightBox>.subject{
+	#ensecureLeftBox1>.subject,#ensecureLeftBox2>.subject,
+	#ensecureRightBox1>.subject,#ensecureRightBox2>.subject{
 		font-size:25px;
 		margin:30px 20px 10px;
 		font-weight:600;
 		border-bottom:2px solid;
 		width:150px;
 	}
-	#ensecureLeftBox>div:nth-child(3){
-		margin-top:60px;
+	#ensecureLeftBox1>div:nth-child(3){
+		margin-top:50px;
 	}
-	#ensecureLeftBox>.value{
+	#ensecureLeftBox2>div:nth-child(3){
+		margin-top:70px;
+	}
+	#ensecureLeftBox1>.value,
+	#ensecureLeftBox2>.value{
 		font-size:17px;
 		margin-left:40px;
 		width:335px;
 		overflow:hidden;
 	}
-	#ensecureLeftBox>.value>.subject{
+	#ensecureLeftBox1>.value>.subject,
+	#ensecureLeftBox2>.value>.subject{
 		float:left;
 		width:35%;
 		margin-bottom:5px;
 	}
-	#ensecureLeftBox>.value>.value{
+	#ensecureLeftBox1>.value>.value,
+	#ensecureLeftBox2>.value>.value{
 		float:left;
 		width:55%;
 		margin-left:10%;
 		margin-bottom:5px;
 	}
 	
-	#ensecureRightBox{
+	#ensecureRightBox1,
+	#ensecureRightBox2{
 		float:left;
 		width:50%;
 		height:465px;
-		background:azure;	
+		background:#FFF0CF;	
 	}
-	#ensecureRightBox>div:nth-child(3){
-		margin-top:100px;
+	#ensecureRightBox1>div:nth-child(3),
+	#ensecureRightBox2>div:nth-child(3){
+		margin-top:70px;
 	}
-	#ensecureRightBox>.value{
+	#ensecureRightBox1>.value,
+	#ensecureRightBox2>.value{
 		margin-left:40px;
 		font-size:18px;
 		margin-bottom:10px;

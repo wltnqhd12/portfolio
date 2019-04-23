@@ -6,7 +6,7 @@
 	}
 	.contentsBox3>.subject{
 		font-size:30px;
-		border-bottom:2px solid;
+		border-bottom:3px solid;
 		margin:5px 20px;
 	}
 	.contentsBox3>.explanation{
@@ -18,7 +18,8 @@
 	#finalSubjectBox{
 		float:left;
 		width:100%;
-		background:black;
+		background:#3A3A3A;
+		font-weight:600;
 		color:white;
 		height:50px;
 		text-align:center;
@@ -28,7 +29,7 @@
 	#finalLeftBox{
 		float:left;
 		width:50%;
-		background:antiquewhite;
+		background:#FFD0C2;
 		height:465px;
 	}
 	#finalLeftBox>.subject,
@@ -64,7 +65,7 @@
 		float:left;
 		width:50%;
 		height:465px;
-		background:azure;		
+		background:#FFF0CF;		
 	}
 	#finalRightBox>div:nth-child(3){
 		margin-top:100px;
