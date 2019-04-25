@@ -1,18 +1,16 @@
 @charset "UTF-8";
 	.contentsBox4{
-		height:545px;
+		height:595px;
 		margin-top:15px;
 	}
-	.contentsBox4>.subject,	#contentsBox4-1>.subject, #contentsBox4-2>.subject,
-	#contentsBox4-3>.subject, #contentsBox4-4>.subject, #contentsBox4-5>.subject,
-	#contentsBox4-6>.subject{
+	.contentsBox4>.subject,	.contentsBox4-1>.subject{
 		font-size:30px;
 		border-bottom:3px solid;
 		margin:5px 20px;
 	}
 	.contentsBox4>.explanation{
 		margin:5px 20px;
-		height:460px;
+		height:525px;
 		overflow:hidden;
 	}
 	
@@ -44,9 +42,6 @@
 	#ensecureLeftBox1>div:nth-child(3){
 		margin-top:50px;
 	}
-	#ensecureLeftBox2>div:nth-child(3){
-		margin-top:70px;
-	}
 	#ensecureLeftBox1>.value,
 	#ensecureLeftBox2>.value{
 		font-size:17px;
@@ -75,38 +70,50 @@
 		height:465px;
 		background:#FFF0CF;	
 	}
-	#ensecureRightBox1>div:nth-child(3),
-	#ensecureRightBox2>div:nth-child(3){
+	#ensecureRightBox1>div:nth-child(3){
 		margin-top:70px;
 	}
 	#ensecureRightBox1>.value,
 	#ensecureRightBox2>.value{
-		margin-left:40px;
+		margin-left:30px;
 		font-size:18px;
 		margin-bottom:10px;
 	}
 	
-	
-	
-	#contentsBox4-1{
-		height:750px;
+	.contentsBox4-1{
+		height:650px;
 		margin-top:15px;
 	}
-	#contentsBox4-1>.explanation{
+	.contentsBox4-1>.explanation{
 		margin:5px 20px;
-		height:665px;
+		height:565px;
 		overflow:hidden;
-		background:aliceblue;
 	}
-	#contentsBox4-1>.explanation>img{
-		width:90%;
-		margin:2% 0% 2% 5%;
-		height:472px;
+	.contentsBox4-1>.explanation>div:nth-child(1){
+		height:232.5px;
+		padding:0px 20px;
+		background:aliceblue;		
 	}
-	#contentsBox4-1>.explanation>div{
-		font-size:18px;
-		height:115px;
-		padding:20px 40px;
+	.contentsBox4-1>.explanation>div:nth-child(2){
+		height:292.5px;
+		padding:0px 20px;
 		background:gainsboro;
 	}
-	
+	.contentsBox4-1>.explanation>div:nth-child(1)>div:nth-child(1){
+		font-size:25px;
+		font-weight:600;
+		padding-top:20px;
+	}
+	.contentsBox4-1>.explanation>div:nth-child(1)>div:nth-child(2){
+		font-size:20px;
+		padding:20px 0px 0px 10px;
+	}
+	.contentsBox4-1>.explanation>div:nth-child(2)>div:nth-child(1){
+		font-size:25px;
+		font-weight:600;
+		padding-top:20px;		
+	}
+	.contentsBox4-1>.explanation>div:nth-child(2)>div:nth-child(2){
+		font-size:20px;
+		padding:20px 0px 0px 10px;
+	}

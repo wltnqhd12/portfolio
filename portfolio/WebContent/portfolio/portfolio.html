@@ -376,6 +376,15 @@
 							<div class="value">
 								- 로그인 이력 UI추가
 							</div>
+							<div class="value">
+								- 관리자 행위 이력 UI추가
+							</div>
+							<div class="value">
+								- 로그인 5회 실패시 5분간 잠금
+							</div>
+							<div class="value">
+								- 비밀번호 3개월 이상 미변경시 알람
+							</div>
 						</div>
 					</div>
 				</div>
@@ -389,7 +398,12 @@
 							<div class="subject">개발 목표</div>
 							<div class="value">
 								OS,DB,AD 계정을 통합 관리하기 위한 개발<br>
-								
+							</div>
+							<div class="subject">
+								개발기간
+							</div>
+							<div class="value">
+								2018년 8월 20일 ~ 2018년 10월 31일
 							</div>
 							<div class="subject">개발환경</div>
 							<div class="value">
@@ -432,12 +446,6 @@
 							</div>
 						</div>
 						<div id="ensecureRightBox2">
-							<div class="subject">
-								개발기간
-							</div>
-							<div class="value">
-								2018년 9월 3일 ~ 2018년 10월 31일
-							</div>
 							<div class="subject">구현기능</div>
 							<div class="value">
 								- 결재라인 정직원 3단계/협력직 4단계로 변경
@@ -450,6 +458,44 @@
 							</div>
 							<div class="value">
 								- AD 계정생성, 사용권한 기능개발 (제품 연동)
+							</div>
+							<div class="value">
+								- NHWith메신저 연동
+							</div>
+							<div class="value">
+								- SGN 접근통제,PM연동
+							</div>
+							<div class="value">
+								- 고스트,브로큰 계정 탐지 및 관리
+							</div>
+							<div class="value">
+								- 보안관리자 추가
+							</div>
+							<div class="value">
+								- OTP키 등록, 변경
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contentsBox4-1">
+					<div class="subject">3.엔시큐어</div>
+					<div class="explanation">
+						<div>
+							<div>삼성화재</div>
+							<div>
+								삼성화재에서 제가 한 기능은  관리자 행위 로그 이력을 DB에 저장하기 위해
+								하나의 추상클래스와 그것을 상속받는 여러 클래스를 각각의 기능에 맞게 오버라이딩 하여 사용했습니다.
+								해당 기능(행위)이 실행되는 코드에 메서드 한줄을 끼워넣었습니다.<br>
+								그리고 비밀번호 변경,로그인 이력,관리자 행위 이력 UI를 만들었습니다.
+							</div>
+						</div>
+						<div>
+							<div>농협정보통신</div>
+							<div>
+								결재라인은 정규직은 팀장 - 시스템관리자 - 보안관리자(3단계), 협력직은 팀장 - PM - 시스템관리자 - 보안관리자(4단계)로 변경했습니다.<br>
+								제품중 AD계정 생성/삭제는 있었지만 UI로 만들어 진게 없어서 UI를 만들고 기존에<br>
+								있는 OS계정 생성/삭제/사용권한 신청 JAVA코드을 참고하여 비슷하게 코딩하였습니다.<br>
+								추가로 보안관리자 등록/삭제, AD사용권한 신청/삭제 UI를 만들었고 기타 여러 오류들을 수정했습니다.
 							</div>
 						</div>
 					</div>
